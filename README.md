@@ -7,6 +7,10 @@
 ## Screenshots
 
 <div align="center">
+  <img width="250" height="480" src="https://user-images.githubusercontent.com/66705822/118411336-690a3f80-b66a-11eb-900a-606b9435a5f8.gif">
+  <img width="250" height="480" src="https://user-images.githubusercontent.com/66705822/118411333-6576b880-b66a-11eb-8d2e-7a788bb0bf2e.gif">
+  <img width="250" height="480" src="https://user-images.githubusercontent.com/66705822/118411330-60b20480-b66a-11eb-95fe-33f9ca2b363a.gif">
+  <img width="350" height="720" src="https://user-images.githubusercontent.com/66705822/118408660-efb82000-b65c-11eb-9599-7b5eeaf987a3.png">
   <img width="350" height="720" src="https://user-images.githubusercontent.com/66705822/118408660-efb82000-b65c-11eb-9599-7b5eeaf987a3.png">
   <img width="350" height="720" src="https://user-images.githubusercontent.com/66705822/118408661-f0e94d00-b65c-11eb-8618-d5647d220d2a.png">
   <img width="350" height="720" src="https://user-images.githubusercontent.com/66705822/118408664-f2b31080-b65c-11eb-8cee-f70afd03fd86.png">
