@@ -50,7 +50,7 @@ export const SearchScreen = () => {
         <View style={styles.containerInput}>
           <TextInput
             autoFocus
-            placeholder="Search Pokemon"
+            placeholder="Search Pokemon or id"
             placeholderTextColor='lightgray'
             style={styles.input}
             value={userInput}

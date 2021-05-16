@@ -6,6 +6,7 @@ import GuessThePokemon from '../screens/GuessThePokemon/GuessThePokemon';
 
 import { TabSearchNavigator } from './SearchNavigator';
 import { TabPokedexNavigator } from './PokedexNavigator';
+import { TouchableOpacity } from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
@@ -13,20 +14,27 @@ const BottomTabs = () => {
   return (
     <Tab.Navigator
       sceneContainerStyle={{
-        backgroundColor: '#fff'
+        backgroundColor: '#fff',
       }}
       tabBarOptions={{
         activeTintColor: '#000',
-        labelPosition: 'below-icon',
+        labelPosition: 'beside-icon',
+        activeBackgroundColor: 'rgba(000,000,000,0.1)',
         labelStyle: {
           width: 60,
           fontSize: 15
+        },
+        tabStyle: {
+          borderRadius: 30
         },
         style: {
           position: 'absolute',
           backgroundColor: 'rgba(255,255,255,0.9)',
           elevation: 0,
           borderWidth: 0,
+          marginVertical: 10,
+          marginHorizontal: 20,
+          borderRadius: 30
         }
       }}
     >
@@ -39,7 +47,7 @@ const BottomTabs = () => {
               size={20}
               name='list-outline'
             />
-          )
+          ),
         }}
         name="HomeScreen"
         component={TabPokedexNavigator} />
