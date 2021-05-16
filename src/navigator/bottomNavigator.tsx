@@ -29,12 +29,13 @@ const BottomTabs = () => {
         },
         style: {
           position: 'absolute',
-          backgroundColor: 'rgba(255,255,255,0.9)',
+          backgroundColor: 'rgba(244,244,244,0.9)',
           elevation: 0,
           borderWidth: 0,
           marginVertical: 10,
           marginHorizontal: 20,
-          borderRadius: 30
+          borderRadius: 30,
+          borderTopWidth: 0,
         }
       }}
     >
