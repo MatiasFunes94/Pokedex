@@ -2,11 +2,8 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-import GuessThePokemon from '../screens/GuessThePokemon/GuessThePokemon';
-
 import { TabSearchNavigator } from './SearchNavigator';
 import { TabPokedexNavigator } from './PokedexNavigator';
-import { TouchableOpacity } from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
@@ -65,19 +62,6 @@ const BottomTabs = () => {
         }}
         name="SearchScreen"
         component={TabSearchNavigator} />
-        {/* <Tab.Screen
-        options={{
-          tabBarLabel: 'Game',
-          tabBarIcon: ({ color }) => (
-            <Icon
-              color={color}
-              size={20}
-              name='game-controller-outline'
-            />
-          )
-        }}
-        name="GameScreen"
-        component={GuessThePokemon} /> */}
     </Tab.Navigator>
   );
 }

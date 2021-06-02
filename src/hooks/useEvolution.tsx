@@ -5,7 +5,6 @@ import { Chain, PokemonEvolutionChain } from '../interfaces/evolutionChainInterf
 import { PokemonSpecies, EvolutionChain } from '../interfaces/speciesInterface';
 import { SimplePokemon } from '../interfaces/pokemonInterfaces';
 import { PokemonDetail } from '../interfaces/pokemonDetailInterface';
-import { renderPokemonImage } from '../utils';
 
 export interface evolutionEveeProps {
   name: string;

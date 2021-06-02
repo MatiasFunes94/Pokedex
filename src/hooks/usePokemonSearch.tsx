@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { pokemonApi } from '../api/pokemonApi';
 import { PokemonPaginatedResponse, SimplePokemon, Result } from '../interfaces/pokemonInterfaces';
 

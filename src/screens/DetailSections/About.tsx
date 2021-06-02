@@ -1,7 +1,11 @@
 import React from 'react'
-import { Animated, StyleSheet, Text, View, Image } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image
+} from 'react-native';
 import appTheme from '../../theme/appTheme';
-import { capitalize } from '../../utils';
 import { PokemonDetail } from '../../interfaces/pokemonDetailInterface';
 import { ScrollView } from 'react-native-gesture-handler';
 
@@ -13,16 +17,6 @@ interface Props {
 }
 
 export const About = ({ pokemonDetail, bgColor, pokemonType, opacity }: Props) => {
-
-  // const renderTypes = () => (
-  //   <Animated.View style={[pokemonType.length > 1 && styles.row, { opacity, marginTop: 30, marginLeft: 20 }]}>
-  //     {pokemonType.map((type: any) => (
-  //       <View key={type} style={{ ...styles.typeLabelContainer, backgroundColor: bgColor }}>
-  //         <Text style={styles.typeLabel}>{capitalize(type)}</Text>
-  //       </View>
-  //     ))}
-  //   </Animated.View>
-  // )
 
   const renderDimensions = () => (
     <View style={[styles.containerHeighWeight, styles.containerShadow]}>
@@ -59,7 +53,6 @@ export const About = ({ pokemonDetail, bgColor, pokemonType, opacity }: Props) =
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      {/* {renderTypes()} */}
       {renderDimensions()}
       {renderAbilities()}
       {renderSprites()}

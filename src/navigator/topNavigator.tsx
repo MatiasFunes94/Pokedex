@@ -7,7 +7,15 @@ import Evolution from '../screens/DetailSections/Evolution';
 
 const TabNavigator = createMaterialTopTabNavigator();
 
-const TabsPokemon = ({ pokemonDetail, bgColor, pokemonType, opacity, evolutionPokemon, evolutionEvee, isLoading }: any) => {
+const TabsPokemon = ({
+  pokemonDetail,
+  bgColor,
+  pokemonType,
+  opacity,
+  evolutionPokemon,
+  evolutionEvee,
+  isLoading
+}: any) => {
   return (
     <NavigationContainer independent={true}>
       <TabNavigator.Navigator tabBarOptions={{

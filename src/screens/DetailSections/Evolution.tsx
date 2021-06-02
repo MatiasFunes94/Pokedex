@@ -1,12 +1,19 @@
 import React, { useEffect } from 'react'
-import { ActivityIndicator, Animated, Image, StyleSheet, Text, View } from 'react-native';
+import {
+  ActivityIndicator,
+  Animated,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+
+import FadeInImage from '../../components/FadeInImage/FadeInImage';
 import useDimensions from '../../hooks/useDimensions';
-import { renderPokemonImage } from '../../utils';
-import { SimplePokemon } from '../../interfaces/pokemonInterfaces';
 import { useAnimation } from '../../hooks/useAnimation';
 import { evolutionEveeProps } from '../../hooks/useEvolution';
-import FadeInImage from '../../components/FadeInImage/FadeInImage';
+import { SimplePokemon } from '../../interfaces/pokemonInterfaces';
+import { renderPokemonImage } from '../../utils';
 
 interface Props {
   evolutionPokemon: SimplePokemon[];

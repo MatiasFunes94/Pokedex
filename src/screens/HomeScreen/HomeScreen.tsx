@@ -1,16 +1,17 @@
 import React, { useContext } from 'react';
-import { FlatList, View, ActivityIndicator, Text, Image } from 'react-native';
+import {
+  FlatList,
+  View,
+  ActivityIndicator,
+  Image
+} from 'react-native';
 
 import Container from '../../components/Container/Container';
 import PokebolaImage from '../../components/PokebolaImage/PokebolaImage';
-import FadeInImage from '../../components/FadeInImage/FadeInImage';
 import PokemonCard from '../../components/PokemonCard/PokemonCard';
-
-import usePokemonPaginated from '../../hooks/usePokemonPaginated';
+import { PokemonContext } from '../../context/PokemonContext';
 
 import { styles } from './styles';
-import theme from '../../theme/appTheme';
-import { PokemonContext } from '../../context/PokemonContext';
 
 const HomeScreen = () => {
 
